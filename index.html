@@ -4,26 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="navbar bg-color flex align-items text-align ">
+        <div>
+            <h1 class="home">Home</h1>
 
+        </div>
 
-    <input type="number" id="searchInput" placeholder="Enter id 1-4">
-    <button onclick="SearchId()">Click here</button>
-    <div class="main">
-        <table>
-            <tr>
-              <th>Name</th>
-              <th>ID</th>
-            </tr>
-            <tr>
-              <td id="Name"></td>
-              <td id="userId"></td>
-            </tr>
-          </table>
+        <div class="right-listbar ">
+            <ul class="flex list-style-type gap-2 formedia hover">
+                <li href="#">Home</li>
+                <li href="#">Contect</li>
+                <li href="#">Shop</li>
+                <li href="#">About us</li>
+            </ul>
+            <ul class="flex list-style-type gap-2 dropdown">
+                    <li class="dropbtne"><ion-icon name="reorder-three-outline"></ion-icon></li>
+            </ul>
+                <ul class="flex list-style-type gap-2 dropdown-conten">
+                    <li href="#">Home</li>
+                    <li href="#">Contect</li>
+                    <li href="#">Shop</li>
+                    <li href="#">About us</li>
+                </ul>                   
+            
+        </div>
     </div>
-    <!-- <script src="./arraylist.js"></script> -->
-    <script src="./searchid.js"></script>
+
+
+   <div class="bg-yellow flex flex-wrap gap-2 h-full p-3">
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow text-align" onclick="https://i.pinimg.com/550x/2b/11/5a/2b115adb901249d9fd7957de21397905.jpg">Click here</div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+        <div class="h-200 bg-red border-1 flex-grow"></div>
+   </div>
+   
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
